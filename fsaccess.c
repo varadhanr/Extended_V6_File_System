@@ -176,11 +176,6 @@ int main(int argc, char *argv[]) {
 			long int num_blocks = atoi(p);
 			p = strtok(NULL, " ");
 			int num_inodes = atoi(p);
-			if (filename == NULL || num_blocks == NULL || num_inodes == NULL) {
-				printf(
-						"Invalid/Incomplete argument.Please pass the entire arguments\n");
-				continue;
-			}
 			printf("Init file_system was requested: %s\n", filename);
 			file_system = fopen(filename, "w+");
 			{
