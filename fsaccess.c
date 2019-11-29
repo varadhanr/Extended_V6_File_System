@@ -1,3 +1,14 @@
+//============================================================================
+// Filename : fsaccess.c
+// Team Members : Varadhan Ramamoorthy and Humayoon Akthar Qaimkhani
+// UTD ID : 2021480952 and 2021505334
+// NET ID: vrr180003 and hxq190001
+// Class: OS 5348.001
+// Project : Project 3
+//============================================================================
+
+
+
 #include <sys/types.h>
 #include <signal.h>
 #include <stdio.h>
@@ -116,7 +127,8 @@ int traverse_file_path_for_make_directory(FILE * file_system, int inode_number,
 // MAIN FUNCTIONS
 //----------------
 int main(int argc, char *argv[]) {
-	int status, file_size;
+	int status;
+	unsigned long long int file_size;
 	FILE* file_system = NULL;
 	const char *filename;
 	int max = 200;
@@ -164,6 +176,11 @@ int main(int argc, char *argv[]) {
 			long int num_blocks = atoi(p);
 			p = strtok(NULL, " ");
 			int num_inodes = atoi(p);
+			if (filename == NULL || num_blocks == NULL || num_inodes == NULL) {
+				printf(
+						"Invalid/Incomplete argument.Please pass the entire arguments\n");
+				continue;
+			}
 			printf("Init file_system was requested: %s\n", filename);
 			file_system = fopen(filename, "w+");
 			{
@@ -186,7 +203,7 @@ int main(int argc, char *argv[]) {
 							"\nFile system %s doesn't exists. You need to run initfs cmmd\n",
 							p);
 				} else {
-					printf("\nFile size is %i\n", file_size);
+					printf("\nFile size is %llu\n", file_size);
 					rewind(file_system);
 				}
 			} else {
@@ -336,7 +353,7 @@ char* print_working_directory(FILE* file_system, int dir_inode_num, char * p) {
 	if (dir_entry.inode_offset == dir_inode_num) {
 		int l1 = strlen(front_slash);
 		int l2 = strlen(p);
-		fileS = calloc(l1 + l2 + 1, sizeof(char));
+		fileS = (char *)calloc(l1 + l2 + 1, sizeof(char));
 		strcat(fileS, front_slash);
 		strcat(fileS, p);
 		return fileS;
@@ -353,7 +370,7 @@ char* print_working_directory(FILE* file_system, int dir_inode_num, char * p) {
 		fread(&prev_dir_entry, sizeof(prev_dir_entry), 1, file_system);
 		if (prev_dir_entry.inode_offset == dir_inode_num) {
 			//sprintf(fileString,"%s%s",prev_dir_entry.file_name,p);
-			fileS = calloc(
+			fileS = (char *)calloc(
 					strlen(front_slash) + strlen(prev_dir_entry.file_name)
 							+ strlen(p) + 1, sizeof(char));
 			strcat(fileS, front_slash);
@@ -492,6 +509,8 @@ int change_directory(FILE* file_system, char* filePath, int inode_number) {
  *
  */
 int initfs(int num_blocks, int num_inodes, FILE* file_system) {
+
+//	printf("Value %i\n",d);
 	inode_type i_node;
 	inode_flags flags;
 	char buff[BLOCK_SIZE];
@@ -539,6 +558,7 @@ int initfs(int num_blocks, int num_inodes, FILE* file_system) {
 	fseek(file_system, BLOCK_SIZE, SEEK_SET);
 	fwrite(&block1, sizeof(block1), 1, file_system);
 
+	//initialize inode
 	inode_type first_inode;
 	first_inode.flags = 0;
 	first_inode.flags |= 1 << 15;
@@ -680,14 +700,11 @@ int cpin(const char* from_filename, char* to_filename, FILE* file_system,
 	while (num_blocks_read == 1) {
 		// Read one block at a time from src file
 		num_blocks_read = fread(&read_buffer, BLOCK_SIZE, 1, from_file_fd);
-		if (num_blocks_read != 1) {
-			break;
-		}
+//		if (num_blocks_read != 1) {
+//			break;
+//		}
 		total_num_blocks += num_blocks_read;
 		free_block_num = get_free_block(file_system);
-		fprintf(debug_cpin,
-				"\nBlock allocated %i, Order num %i, num_blocks_read %i",
-				free_block_num, total_num_blocks, num_blocks_read);
 		fflush(debug_cpin);
 		if (free_block_num == -1) {
 			printf("\nNo free blocks left. Total blocks read so far:%i",
@@ -698,7 +715,7 @@ int cpin(const char* from_filename, char* to_filename, FILE* file_system,
 		memset(buff, 0, BLOCK_SIZE);
 		fseek(file_system, free_block_num * BLOCK_SIZE, SEEK_SET);
 		fwrite(buff, 1, BLOCK_SIZE, file_system);
-		fprintf(debug_cpin, "\n Block allocated %i", free_block_num);
+//		fprintf(debug_cpin, "\n Block allocated %i", free_block_num);
 		if (file_size > BLOCK_SIZE * 10)
 			add_block_to_inode(block_order, free_block_num, to_file_inode_num,
 					file_system);
@@ -708,6 +725,9 @@ int cpin(const char* from_filename, char* to_filename, FILE* file_system,
 		fseek(file_system, free_block_num * BLOCK_SIZE, SEEK_SET);
 		fwrite(&read_buffer, sizeof(read_buffer), 1, file_system);
 		block_order++;
+		fprintf(debug_cpin,
+						"\nBlock allocated %i, Order num %i",
+						free_block_num, block_order);
 
 	}
 	fclose(debug_cpin);
@@ -937,10 +957,10 @@ void add_block_to_inode(int block_order_num, int block_num,
 	 *
 	 *
 	 */
-	int a = (block_order_num - 256 * 10) / (256 * 256);
-	int prev_a = ((block_order_num - 1) - 256 * 10) / (256 * 256);
-	int b = (block_order_num - 256 * 10 - (a * 256 * 256)) / (256);
-	int prev_b = ((block_order_num - 1) - 256 * 10 - (a * 256 * 256)) / (256);
+	int a = floor((block_order_num - 256 * 10) / (256 * 256));
+	int prev_a = floor(((block_order_num - 1) - 256 * 10) / (256 * 256));
+	int b = floor( ((double)(block_order_num - 256 * 10 - (a * 256 * 256))) / (256));
+	int prev_b = floor( ((double)(block_order_num - 1 - 256 * 10 - (a * 256 * 256))) / (256));
 	int thrd_ind_block;
 	if (logical_block >= 10) {
 
@@ -1027,6 +1047,7 @@ int get_free_block(FILE* file_system) {
 	fseek(file_system, BLOCK_SIZE, SEEK_SET);
 	fwrite(&block1, sizeof(block1), 1, file_system);
 	fflush(file_system);
+//	free(&block1);
 	return free_block;
 }
 
@@ -1305,6 +1326,8 @@ int cpout(char* from_filename, const char* to_filename, FILE* file_system,
 			next_block_number = lookup_blocks_for_small_file(file_node_num,
 					block_number_order, file_system);
 
+//		if(next_block_number == 0)
+//			return 0;
 		fseek(file_system, next_block_number * BLOCK_SIZE, SEEK_SET);
 		if ((block_number_order < (number_of_blocks - 1))
 				|| (number_of_bytes_last_block == 0)) {
@@ -1316,7 +1339,8 @@ int cpout(char* from_filename, const char* to_filename, FILE* file_system,
 		}
 
 		block_number_order++;
-		fprintf(debug_cpout, "\nBlock allocated %i, Oder num %i",
+		fprintf(debug_cpout,
+				"\nBlock allocated %i, Order num %i",
 				next_block_number, block_number_order);
 
 	}
