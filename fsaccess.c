@@ -766,7 +766,7 @@ int remove_file(char *filename, FILE* file_system, int dir_inode) {
 	}
 	int file_node_num, file_size, block_number_order, next_block_number;
 	inode_type file_inode;
-	unsigned char bit_14; //Plain file or Directory bit
+	unsigned char bit_14;
 	file_node_num = get_inode_by_file_name_and_inode(filename, file_system,
 			dir_inode);
 	if (file_node_num == -1) {
@@ -1529,8 +1529,6 @@ void remove_file_from_directory(int file_node_num, FILE* file_system,
 	int i;
 	for (i = 0; i < records; i++) {
 		fread(&directory_entry, sizeof(directory_entry), 1, file_system);
-		printf("\nNode number in directory %i", directory_entry.inode_offset);
-		printf("\nFileName%s\n", directory_entry.file_name);
 		if (directory_entry.inode_offset == file_node_num) {
 			printf("\n Inside\n");
 			fseek(file_system, (-1) * sizeof(directory_entry), SEEK_CUR); //Go one record back

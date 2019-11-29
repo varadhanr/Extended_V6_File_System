@@ -5,7 +5,7 @@ Objective : To create an extended version of V6 file sytem to support file size 
 
 How to Compile and Execute:
 --------------------------
-1) Compile : gcc fsaccess.c -lm -o executable.out
+1) Compile : g++ fsaccess.c -lm -o executable.out
 
 2) Execute : ./executable.out
 
