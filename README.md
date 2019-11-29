@@ -3,6 +3,12 @@ Extended Version of V6 File system
 
 Objective : To create an extended version of V6 file sytem to support file size upto 4GB.
 
+How to Compile and Execute:
+--------------------------
+1) Compile : gcc fsaccess.c -lm -o executable.out
+
+2) Execute : ./executable.out
+
 Commands that are supported:
 ---------------------------
 1) initfs fname num_blocks num_inode </br>

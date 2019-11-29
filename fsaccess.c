@@ -285,7 +285,21 @@ int main(int argc, char *argv[]) {
 			}
 			printf("rmdir was requested\n");
 			char * p = strtok(arg, " ");
-			remove_directory(file_system, p, inode_number_for_dir_traversal);
+			int dir_inode_num = traverse_file_path_for_make_directory(file_system,
+					inode_number_for_dir_traversal, p);
+			if (dir_inode_num == 0) {
+				printf("Remove directory failed \n");
+				continue;
+			}
+			printf("\nDir inode : %d\n", dir_inode_num);
+			char * filenamecpy;
+			filenamecpy = strrchr(p, '/');
+			if (filenamecpy != NULL) {
+				p = filenamecpy + 1;
+			}
+//			printf("Directory before %s\n", p);
+//			printf("Dir Inode %i\n",dir_inode_num);
+			remove_directory(file_system, p, dir_inode_num);
 
 		}
 		//pwd command call
@@ -325,7 +339,7 @@ int main(int argc, char *argv[]) {
 
 		} else
 			printf(
-					"Not valid commands. Available cmmds: initfs, pwd, cd, ls, mkdir, rm, cpin, cpout, rmdir\n");
+					"Not valid commands. Available cmmds: initfs, open, pwd, cd, ls, mkdir, rm, cpin, cpout, rmdir\n");
 
 	}
 }
@@ -384,19 +398,20 @@ char* print_working_directory(FILE* file_system, int dir_inode_num, char * p) {
  */
 void remove_directory(FILE* file_system, char * file_name, int dir_inode_num) {
 
-	dir_inode_num = traverse_file_path_for_make_directory(file_system,
-			dir_inode_num, file_name);
-	if (dir_inode_num == 0) {
-		printf("Remove directory failed \n");
-		return;
-	}
-	printf("\nDir inode : %d\n", dir_inode_num);
-	char * filenamecpy;
-	filenamecpy = strrchr(file_name, '/');
-	if (filenamecpy != NULL) {
-		file_name = filenamecpy + 1;
-	}
-
+//	dir_inode_num = traverse_file_path_for_make_directory(file_system,
+//			dir_inode_num, file_name);
+//	if (dir_inode_num == 0) {
+//		printf("Remove directory failed \n");
+//		return;
+//	}
+//	printf("\nDir inode : %d\n", dir_inode_num);
+//	char * filenamecpy;
+//	filenamecpy = strrchr(file_name, '/');
+//	if (filenamecpy != NULL) {
+//		file_name = filenamecpy + 1;
+//	}
+//	printf("Directory before %s\n",file_name);
+//	printf("Directory Inode %i\n",dir_inode_num);
 	inode_type dir_inode;
 	int inode_num_dir_to_be_deleted = 0;
 	dir_type dir_entry;
@@ -406,6 +421,7 @@ void remove_directory(FILE* file_system, char * file_name, int dir_inode_num) {
 	int i;
 	for (i = 0; i < records; i++) {
 		fread(&dir_entry, sizeof(dir_entry), 1, file_system);
+//		printf("Entries %s\n",dir_entry.file_name);
 		if (strcmp(dir_entry.file_name, file_name) == 0) {
 			inode_num_dir_to_be_deleted = dir_entry.inode_offset;
 			break;
@@ -449,6 +465,7 @@ void remove_directory(FILE* file_system, char * file_name, int dir_inode_num) {
 		}
 	}
 
+	add_block_to_free_list(dir_inode_to_be_deleted.addr[0],file_system);
 	remove_file_from_directory(inode_num_dir_to_be_deleted, file_system,
 			dir_inode_num);
 	fflush(file_system);
@@ -774,7 +791,8 @@ int remove_file(char *filename, FILE* file_system, int dir_inode) {
 			else
 				next_block_number = file_inode.addr[block_number_order];
 
-			add_block_to_free_list(next_block_number, file_system);
+			if(next_block_number != 0)
+				add_block_to_free_list(next_block_number, file_system);
 			block_number_order--;
 		}
 	}
