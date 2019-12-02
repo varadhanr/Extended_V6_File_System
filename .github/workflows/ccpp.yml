@@ -21,7 +21,7 @@ jobs:
         rm -rf build/
         mkdir build
         cd build
-        cmake ../v6 
+        cmake ../src 
     - name: Run CMake
       env:
         CC: ${{ matrix.compiler }}
