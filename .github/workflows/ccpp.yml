@@ -25,4 +25,6 @@ jobs:
     - name: Run CMake
       env:
         CC: ${{ matrix.compiler }}
-      run: cmake --build .
+      run: |
+        cd build/
+        cmake --build .
