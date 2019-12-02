@@ -1,0 +1,2 @@
+#define V6FileSystem_VERSION_MAJOR @V6FileSystem_VERSION_MAJOR@
+#define V6FIleSystem_VERSION_MINOR @V6FileSystem_VERSION_MINOR@

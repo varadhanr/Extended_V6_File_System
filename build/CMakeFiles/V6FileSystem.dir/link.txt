@@ -1,0 +1,1 @@
+/usr/bin/cc    -lm CMakeFiles/V6FileSystem.dir/fsaccess.c.o  -o V6FileSystem 
