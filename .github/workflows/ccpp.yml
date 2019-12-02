@@ -5,13 +5,13 @@ on:
     branches: 
       - master
 
-strategy:
-  matrix:
-    compiler: [gcc]
+
 
 jobs:
   build:
-
+    strategy:
+      matrix:
+        compiler: [gcc]
     runs-on: macOS-latest
     
     steps:
