@@ -28,7 +28,3 @@ jobs:
       run: |
         cd build/
         cmake --build .
-    - name: test initfs
-      run: |
-        cd build/
-        ./V6FileSystem
