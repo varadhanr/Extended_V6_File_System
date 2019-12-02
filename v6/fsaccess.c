@@ -28,7 +28,7 @@
 #define BLOCK_SIZE 1024
 #define ADDR_SIZE 11
 #define I_SIZE 200
-const unsigned short INODE_SIZE = 64;
+onst unsigned short INODE_SIZE = 64;
 /**
  * Structure for super block
  */
