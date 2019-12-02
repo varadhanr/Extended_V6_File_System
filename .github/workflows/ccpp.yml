@@ -16,7 +16,13 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+    - name: CMake build
+      run: |
+        rm -rf build/
+        mkdir build
+        cd build
+        cmake ../v6 
     - name: Run CMake
       env:
         CC: ${{ matrix.compiler }}
-      run: cmake --build 
+      run: cmake --build .
