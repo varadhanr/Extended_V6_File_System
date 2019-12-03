@@ -3,11 +3,11 @@ Extended Version of V6 File system
 
 Objective : To create an extended version of V6 file sytem to support file size upto 4GB.
 
-How to Compile and Execute:
+How to Compile and build using CMake
 --------------------------
-1) Compile : g++ fsaccess.c -lm -o executable.out
-
-2) Execute : ./executable.out
+1) mkdir build/
+2) Inside build folder CMake ../src
+3) CMake --build .
 
 Commands that are supported:
 ---------------------------
