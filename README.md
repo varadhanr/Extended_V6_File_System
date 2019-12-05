@@ -6,8 +6,8 @@ Objective : To create an extended version of V6 file sytem to support file size 
 How to Compile and build using CMake
 --------------------------
 1) mkdir build/
-2) Inside build folder CMake ../src
-3) CMake --build .
+2) Inside build folder cmake ../src
+3) cmake --build .
 
 Commands that are supported:
 ---------------------------
