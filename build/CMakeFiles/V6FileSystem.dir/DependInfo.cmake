@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/v6/fsaccess.c" "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/V6FileSystem.dir/fsaccess.c.o"
+  "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/src/main.c" "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/V6FileSystem.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

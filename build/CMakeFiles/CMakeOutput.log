@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/3.11.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/3.11.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_88723/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_88723.dir/build.make CMakeFiles/cmTC_88723.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88723.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_88723.dir/testCCompiler.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_88723
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88723.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_88723.dir/testCCompiler.c.o  -o cmTC_88723 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_96e0f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_96e0f.dir/build.make CMakeFiles/cmTC_96e0f.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96e0f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96e0f.dir/testCCompiler.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_96e0f
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96e0f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_96e0f.dir/testCCompiler.c.o  -o cmTC_96e0f 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cc88c/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cc88c.dir/build.make CMakeFiles/cmTC_cc88c.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_cc88c
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc88c.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o  -o cmTC_cc88c 
+Run Build Command:"/usr/bin/gmake" "cmTC_2e859/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2e859.dir/build.make CMakeFiles/cmTC_2e859.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2e859
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e859.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o  -o cmTC_2e859 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc88c' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc88c /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e859' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2e859 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_cc88c/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_cc88c.dir/build.make CMakeFiles/cmTC_cc88c.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_cc88c]
-  ignore line: [/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc88c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o  -o cmTC_cc88c ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_2e859/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_2e859.dir/build.make CMakeFiles/cmTC_2e859.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2e859]
+  ignore line: [/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e859.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o  -o cmTC_2e859 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cc88c' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_cc88c /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e859' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2e859 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -97,7 +97,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cc88c] ==> ignore
+    arg [cmTC_2e859] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_cc88c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2e859.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -131,17 +131,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2c858/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2c858.dir/build.make CMakeFiles/cmTC_2c858.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2c858.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2c858.dir/feature_tests.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2c858
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c858.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_2c858.dir/feature_tests.c.o  -o cmTC_2c858 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_26fe8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_26fe8.dir/build.make CMakeFiles/cmTC_26fe8.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26fe8.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_26fe8.dir/feature_tests.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_26fe8
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26fe8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_26fe8.dir/feature_tests.c.o  -o cmTC_26fe8 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -151,17 +151,17 @@ gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_560ef/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_560ef.dir/build.make CMakeFiles/cmTC_560ef.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_560ef.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_560ef.dir/feature_tests.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_560ef
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_560ef.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_560ef.dir/feature_tests.c.o  -o cmTC_560ef 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_d09f1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d09f1.dir/build.make CMakeFiles/cmTC_d09f1.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d09f1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d09f1.dir/feature_tests.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d09f1
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09f1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d09f1.dir/feature_tests.c.o  -o cmTC_d09f1 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -171,17 +171,17 @@ gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_45c15/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_45c15.dir/build.make CMakeFiles/cmTC_45c15.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_45c15.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_45c15.dir/feature_tests.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_45c15
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c15.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_45c15.dir/feature_tests.c.o  -o cmTC_45c15 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_f8fbc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f8fbc.dir/build.make CMakeFiles/cmTC_f8fbc.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8fbc.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f8fbc.dir/feature_tests.c.o   -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f8fbc
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8fbc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f8fbc.dir/feature_tests.c.o  -o cmTC_f8fbc 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -189,30 +189,30 @@ gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f67ad/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f67ad.dir/build.make CMakeFiles/cmTC_f67ad.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f67ad.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f67ad.dir/testCXXCompiler.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f67ad
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f67ad.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f67ad.dir/testCXXCompiler.cxx.o  -o cmTC_f67ad 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_a79f4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a79f4.dir/build.make CMakeFiles/cmTC_a79f4.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a79f4.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a79f4.dir/testCXXCompiler.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a79f4
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a79f4.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a79f4.dir/testCXXCompiler.cxx.o  -o cmTC_a79f4 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7cf26/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7cf26.dir/build.make CMakeFiles/cmTC_7cf26.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_7cf26
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cf26.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7cf26 
+Run Build Command:"/usr/bin/gmake" "cmTC_4fde6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4fde6.dir/build.make CMakeFiles/cmTC_4fde6.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4fde6
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fde6.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4fde6 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -222,23 +222,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cf26' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7cf26 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4fde6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4fde6 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_7cf26/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7cf26.dir/build.make CMakeFiles/cmTC_7cf26.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_7cf26]
-  ignore line: [/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cf26.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7cf26 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_4fde6/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_4fde6.dir/build.make CMakeFiles/cmTC_4fde6.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.11.4/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4fde6]
+  ignore line: [/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fde6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4fde6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -248,8 +248,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cf26' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7cf26 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4fde6' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_4fde6 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -260,7 +260,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_7cf26] ==> ignore
+    arg [cmTC_4fde6] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -269,7 +269,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_7cf26.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4fde6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -292,17 +292,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_da10d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_da10d.dir/build.make CMakeFiles/cmTC_da10d.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_da10d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_da10d.dir/feature_tests.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_da10d
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da10d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_da10d.dir/feature_tests.cxx.o  -o cmTC_da10d 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_008ee/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_008ee.dir/build.make CMakeFiles/cmTC_008ee.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_008ee.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_008ee.dir/feature_tests.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_008ee
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_008ee.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_008ee.dir/feature_tests.cxx.o  -o cmTC_008ee 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -365,17 +365,17 @@ gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_90d9e/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_90d9e.dir/build.make CMakeFiles/cmTC_90d9e.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_90d9e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_90d9e.dir/feature_tests.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_90d9e
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d9e.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_90d9e.dir/feature_tests.cxx.o  -o cmTC_90d9e 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_9faed/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9faed.dir/build.make CMakeFiles/cmTC_9faed.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9faed.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_9faed.dir/feature_tests.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9faed
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9faed.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9faed.dir/feature_tests.cxx.o  -o cmTC_9faed 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -438,17 +438,17 @@ gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp
+Change Dir: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f37e6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f37e6.dir/build.make CMakeFiles/cmTC_f37e6.dir/build
-gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f37e6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f37e6.dir/feature_tests.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f37e6
-/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f37e6.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f37e6.dir/feature_tests.cxx.o  -o cmTC_f37e6 
-gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_2def5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2def5.dir/build.make CMakeFiles/cmTC_2def5.dir/build
+gmake[1]: Entering directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2def5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_2def5.dir/feature_tests.cxx.o -c /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2def5
+/usr/local/cmake-3.11.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2def5.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2def5.dir/feature_tests.cxx.o  -o cmTC_2def5 
+gmake[1]: Leaving directory `/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

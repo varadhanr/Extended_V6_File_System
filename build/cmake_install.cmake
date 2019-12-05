@@ -1,4 +1,4 @@
-# Install script for directory: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/v6
+# Install script for directory: /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -48,10 +48,10 @@ RM = /usr/local/cmake-3.11.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/v6
+CMAKE_SOURCE_DIR = /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build
+CMAKE_BINARY_DIR = /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ V6FileSystem/fast:
 	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/build
 .PHONY : V6FileSystem/fast
 
-fsaccess.o: fsaccess.c.o
+main.o: main.c.o
 
-.PHONY : fsaccess.o
+.PHONY : main.o
 
 # target to build an object file
-fsaccess.c.o:
-	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/fsaccess.c.o
-.PHONY : fsaccess.c.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/main.c.o
+.PHONY : main.c.o
 
-fsaccess.i: fsaccess.c.i
+main.i: main.c.i
 
-.PHONY : fsaccess.i
+.PHONY : main.i
 
 # target to preprocess a source file
-fsaccess.c.i:
-	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/fsaccess.c.i
-.PHONY : fsaccess.c.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/main.c.i
+.PHONY : main.c.i
 
-fsaccess.s: fsaccess.c.s
+main.s: main.c.s
 
-.PHONY : fsaccess.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-fsaccess.c.s:
-	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/fsaccess.c.s
-.PHONY : fsaccess.c.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/V6FileSystem.dir/build.make CMakeFiles/V6FileSystem.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... V6FileSystem"
-	@echo "... fsaccess.o"
-	@echo "... fsaccess.i"
-	@echo "... fsaccess.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

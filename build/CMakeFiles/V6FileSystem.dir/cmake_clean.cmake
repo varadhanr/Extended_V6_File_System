@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/V6FileSystem.dir/fsaccess.c.o"
+  "CMakeFiles/V6FileSystem.dir/main.c.o"
   "V6FileSystem.pdb"
   "V6FileSystem"
 )

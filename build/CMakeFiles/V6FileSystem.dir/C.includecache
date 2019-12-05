@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/v6/fsaccess.c
+/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/src/V6FileSystemConfig.h
+
+/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/src/main.c
 V6FileSystemConfig.h
--
+/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/src/V6FileSystemConfig.h
 sys/types.h
 -
 signal.h
@@ -31,6 +33,4 @@ fcntl.h
 -
 math.h
 -
-
-V6FileSystemConfig.h
 

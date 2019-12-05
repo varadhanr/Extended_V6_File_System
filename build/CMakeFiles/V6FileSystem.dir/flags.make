@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/011/v/vr/vrr180003/Graduate-Studies/OS/Unix_v6_extended_file_system/build 
+C_INCLUDES = -I/home/011/v/vr/vrr180003/Graduate-Studies/OS/Extended_V6_File_System/build 
 
